@@ -19,7 +19,7 @@ This repository hosts an application that allows users to generate images from t
 
 ## Prerequisites
 
-Ensure you have [Node.js](https://nodejs.org/) installed to handle package management and server operations.
+Ensure you have [Node.js](https://nodejs.org/) installed to handle package management and server operations. You will also need an OpenAI account, a token within a .env file to run this properly.
 
 ## Installation
 
