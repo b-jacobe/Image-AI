@@ -16,13 +16,18 @@ form.addEventListener('submit', async (e) => {
       prompt: data.get('prompt'),
     }),
   });
+  if (response.ok) {
+    const { image } = await response.json();
 
-  const { image } = await response.json();
+    const result = document.querySelector('#result');
+    result.innerHTML = `<img src="${image}" width="512" />`;
 
-  const result = document.querySelector('#result');
-  result.innerHTML = `<img src="${image}" width="512" />`;
-
-  hideSpinner();
+    hideSpinner();
+  } else {
+    const error = await response.text();
+    alert(error);
+    console.error(error);
+  }
 });
 
 function showSpinner() {
