@@ -9,6 +9,8 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
+![image info](./img/dream.png)
+
 This repository hosts an application that allows users to generate images from text prompts using OpenAI's DALL·E API. It features a user-friendly interface for both the initiation of image generation and the display of resulting artwork.
 
 ## Features
