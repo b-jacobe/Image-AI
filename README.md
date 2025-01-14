@@ -60,6 +60,12 @@ The backend will start and listen for requests to perform API calls to OpenAI.
 
 Once both servers are running, navigate to http://localhost:[yourport#] on your browser to use the application. Enter your desired prompt and generate images.
 
+## Contributing
+
+### Sumbmit a pull request
+
+If you'd like to contribute, please fork the repository and open a pull request to the `main` branch.
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
